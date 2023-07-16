@@ -1,0 +1,3 @@
+/opt/pulsar/bin/pulsar-client consume demo -n 100 -s "pulsar-consumer"
+
+/opt/pulsar/bin/pulsar-client produce demo -n 10 -m "hello world
