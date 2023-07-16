@@ -1,0 +1,25 @@
+   51  wget https://github.com/kubernetes-sigs/krew/releases/download/v0.4.2/krew-linux_amd64.tar.gz
+   52  untar -xzvf krew-linux_amd64.tar.gz 
+   53  tar -xzvf krew-linux_amd64.tar.gz 
+   54  mv krew-linux_amd64 /usr/local/bin/krew
+   55  sudo mv krew-linux_amd64 /usr/local/bin/krew
+   56  sudo chmod +x /usr/local/bin/krew
+   59  krew install krew
+   60  export PATH="${PATH}:${HOME}/.krew/bin"
+
+export PATH="${PATH}:${HOME}/.krew/bin"
+
+
+   64* kubectl krew 
+   65  kubectl krew install minio
+   66  kn
+   67  kubectl create namespace minio-operator
+   68  kubectl minio init --namespace minio-operator
+   69  kubectl get all --namespace minio-operator
+   70  k describe pod/minio-operator-77887b6577-hxsvp
+   71  kubectl get all --namespace minio-operator
+   72  kn
+   73  kn minio-operator
+   74  k describe pod/minio-operator-77887b6577-hxsvp
+   75  kubectl get all --namespace minio-operator
+
