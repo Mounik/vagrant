@@ -10,9 +10,11 @@ Please refer to the official documentation based on your host OS and CPU
 
 [Virtuabox](https://www.virtualbox.org/wiki/Downloads)
 
-## 3- Install vagrant-hostsupdater plugin
+## 3- Install vagrant plugin
 ```
 vagrant plugin install vagrant-hostsupdater
+vagrant plugin install vagrant-faster
+vagrant plugin install vagrant-cachier
 ```
 
 ## 4- Run your desire stack
