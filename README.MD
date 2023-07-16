@@ -27,13 +27,7 @@ vagrant up
 vagrant ssh <stack name>
 ```
 
-## 6- Pick the ip that you must use for remote access from host (ssh, http ...)
-Went until the stack end to deployment and pick the ip in the message bellow
+## 6- Delete the stack
 ```
-For this Stack, you will use <IP Address> IP Address
-```
-
-## 7- Delete the stack
-```
-vagrant delete <stack name>
+vagrant destroy
 ```
