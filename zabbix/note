@@ -1,0 +1,8 @@
+ # listen 8080;
+# server_name example.com; 
+
+ Edit file /etc/zabbix/zabbix_server.conf
+DBPassword=password 
+
+# systemctl restart zabbix-server zabbix-agent nginx php8.1-fpam
+# systemctl enable zabbix-server zabbix-agent nginx php8.1-fpm 
