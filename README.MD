@@ -15,6 +15,10 @@ Please refer to the official documentation based on your host OS and CPU
 vagrant plugin install vagrant-hostsupdater
 vagrant plugin install vagrant-faster
 vagrant plugin install vagrant-cachier
+
+Si message d'erreur
+vagrant plugin install --plugin-clean-sources --plugin-source https://rubygems.org vagrant-faster
+vagrant plugin install --plugin-clean-sources --plugin-source https://rubygems.org vagrant-cachier
 ```
 
 ## 4- Run your desire stack
